@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525
+    
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+body {
+    background-image: url(/https://wallpaperaccess.com/full/1209562.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(229, 228, 230);
+    text-align: center;
+    padding: 0;
+    font-size: 2rem;
+}
+#title {
+    /* margin: ; */
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 20PX;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color:rgb(179, 12, 12);
+    text-decoration: 1px solid underline;
+}
+#introduction{
+    text-align: center;
+    margin-left: 10px;
+    color: aqua;
+    height: auto;
+    width: auto;
+    
+    border-radius: 10%;
+    /* text-align: right; */
+    /* display: flex; */
+    justify-content: space-between;
+}
+#introduction h1{
+    color:rgb(179, 12, 12);
+    text-decoration: 2px solid underline black;
+    /* text-align: right;
+    display: flex; */
+    image-rendering: auto;
+}
+#Career{
+    text-align: center;
+    margin-left: 10px;
+    color: aqua;
+    height: auto;
+    width: auto;
+    
+    border-radius: 10%;
+    /* text-align: right; */
+    /* display: flex; */
+    justify-content: space-between;
+
+    
+}
+#Career h1{
+    color:rgb(179, 12, 12);
+    text-decoration: 2px solid underline black;
+    /* text-align: right; */
+    /* display: flex; */
+    image-rendering: auto;
+}
+#Skill{
+    text-align: center;
+    margin-left: 10px;
+    color: #f7f4f4;
+    height: auto;
+    width: auto;
+    border-radius: 10%;
+    justify-content: space-between;
+}
+#Skill h1{
+    color: rgb(131, 3, 3);
+    text-decoration: 2px solid underline black;
+    /* display: flex; */
+    image-rendering: auto;
+}
+
+
+#Skill button{
+    /* color: white; */
+    /* background-color: green; */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40%;
+    
+    position: relative;
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    /* float: inline-start; */
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+.contact{
+    text-align: start;
+    margin-left: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    /* position: absolute; */
+    background-color: rgb(143, 143, 143);
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 40px;
+    top: 40px;
+    padding: 30px 40px;
+}
+#newtask{
+    position: relative;
+    background-color: #016881;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask input{
+    height: 50px;
+    width: 45%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #03405e;
+    color: #9b0b0b;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+#tasks{
+    background-color: #352e2e;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #8052ec;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
+button{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
